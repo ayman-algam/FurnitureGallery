@@ -41,7 +41,7 @@ List<Product> products =[
     id: 3,
     price: 1600,
     title: "Wood Frame",
-    image: "assets/images/chair_1.png",
+    image: "assets/images/chair_3.png",
     category: "Chair",
     subTitle: "Tieton Armchair",
     description: description,
@@ -49,9 +49,29 @@ List<Product> products =[
 
   Product(
     id: 4,
-    price: 1900,
+    price: 1600,
     title: "Wood Frame",
     image: "assets/images/chair_1.png",
+    category: "Chair",
+    subTitle: "Tieton Armchair",
+    description: description,
+  ),
+
+  Product(
+    id: 5,
+    price: 2660,
+    title: "Wood Frame",
+    image: "assets/images/chair_2.png",
+    category: "Chair",
+    subTitle: "Tieton Armchair",
+    description: description,
+  ),
+
+  Product(
+    id: 6,
+    price: 1600,
+    title: "Wood Frame",
+    image: "assets/images/chair_3.png",
     category: "Chair",
     subTitle: "Tieton Armchair",
     description: description,
@@ -59,4 +79,4 @@ List<Product> products =[
 ];
 
 String description =
-    "This armchair is an elegant and functional piece of furniture. It is suitable for family visits and parties with friends and perfect for relaxing in front of the TV after hard work.";
+    "This armchair is an elegant and functional";

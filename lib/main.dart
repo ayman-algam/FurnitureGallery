@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:furniture/constants.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-import 'Screens/product/screen_01_products.dart';
+import 'Screens/scr_01_products/products.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme),
         primaryColor: kPrimaryColor,
+        // ignore: deprecated_member_use
         accentColor: kPrimaryColor,
 
 
